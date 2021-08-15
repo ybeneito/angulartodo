@@ -9,7 +9,8 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { TasksComponent } from './tasks/tasks.component'
+import { TasksComponent } from './tasks/tasks.component';
+import { SigninComponent } from './components/signin/signin.component'
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { TasksComponent } from './tasks/tasks.component'
     AppComponent,
     TodosComponent,
     HomeComponent,
-    TasksComponent
+    TasksComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
